@@ -1,0 +1,15 @@
+
+
+.footer{
+    margin-top: 80 em;
+    padding: 0px 0px;
+    background-color: white;
+    position: absolute;
+
+    width: 100%;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}

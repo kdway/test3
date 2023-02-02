@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Explora&family=Great+Vibes&family=Lobster&display=swap');
+
+.container-fluid a{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+.nav-item a{
+    font-family: 'Cinzel', serif;
+    margin-top: 0.5em;
+}

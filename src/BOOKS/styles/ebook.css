@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Comfortaa:wght@300;400;500&family=DM+Serif+Display:ital@0;1&family=Fira+Sans&family=Gideon+Roman&family=Gwendolyn:wght@700&family=Lobster&family=Lora&family=Manrope:wght@200;300&family=Meow+Script&family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Nunito+Sans:ital,wght@0,200;1,200&family=Nunito:ital,wght@0,200;0,400;0,700;0,800;1,200;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Raleway:wght@200;300;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rubik:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Comfortaa:wght@300;400;500&family=DM+Serif+Display:ital@0;1&family=Fira+Sans&family=Gideon+Roman&family=Gwendolyn:wght@700&family=Inter:wght@200;300&family=Lobster&family=Lora&family=Manrope:wght@200;300&family=Meow+Script&family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Nunito+Sans:ital,wght@0,200;1,200&family=Nunito:ital,wght@0,200;0,400;0,700;0,800;1,200;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Raleway:wght@200;300;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rubik:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Explora&family=Great+Vibes&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Explora&family=Great+Vibes&family=Lobster&display=swap');
+/* Global Styles */
+
+  
+  /* router-outlet + *  {
+   
+  } */
+  
+  /* Text */
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1,
+  h2 {
+    font-weight: lighter;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-left: 3em;
+  }
+  
+  /* Hyperlink */
+  
+  a {
+    cursor: pointer;
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  /* Input */
+  
+  input {
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #bdbdbd;
+  }
+  
+  label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  /* Button */
+  .button,
+  button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+  }
+  
+  .button:hover,
+  button:hover {
+    opacity: 0.8;
+    font-weight: normal;
+  }
+  
+  .button:disabled,
+  button:disabled {
+    opacity: 0.5;
+    cursor: auto;
+  }
+  
+  /* Fancy Button */
+  
+  .fancy-button {
+    background-color: white;
+    color: #1976d2;
+  }
+  
+  .fancy-button i.material-icons {
+    color: #1976d2;
+    padding-right: 4px;
+  }
+  
+  /* Top Bar */
+  
+  .app-top-bar {
+    width: 100%;
+    height: 68px;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-top-bar h1 {
+    color: #1976d2;
+    margin: 0;
+  }
+  
+  /* Checkout Cart, Shipping Prices */
+  
+  .cart-item,
+  .shipping-item {
+    width: 100%;
+    min-width: 400px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 32px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    background-color: #eeeeee;
+  }
+.product-list{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 8px;
+  }
+  .product-list img{
+    max-width: 25em;
+    height:20em;
+    margin: 0px 0px 0px 8px;
+  }
+
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
+
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+.s img{
+  width:100%;
+  height: auto;
+}
+.list{
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+}
+.submit{
+  width: 100em;
+  height: 25em;
+  margin-top: -8em;
+  margin-left: -12em;
+  background-color:#2196F3;
+}
+.text3{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'DM Serif Display', serif;
+}
+.text4{
+font-size: 50px;
+text-align: center;
+margin-top: 0em;
+font-family: 'Montserrat', sans-serif;
+}
+.submit a{
+  margin-left: 5em;
+
+  margin-top: 3em;
+  border-radius:  0.3em;
+  width: 15em;
+  height: 3em;
+}
+
+.wrapper {
+  perspective: 70px;
+  display:flex;
+  flex-direction: row;
+  gap: 8em;
+
+}
+.wrapper > div {
+  
+  width: 25em;
+  line-height: 12em;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  border: 3px;
+  
+}
+.box1 img{
+  width: 25em;
+  height: 30em;
+}
+.box2 img{
+  width: 25em;
+  height: 30em;
+}
+.box3 img{
+  width: 25em;
+  height: 30em;
+}
+
+#box1:hover {
+  translate: 2px 2px 2px;
+}
+
+#box2:hover {
+  translate: 2px 2px 2px;
+}
+
+#box3:hover {
+  translate: 2px 2px 2px;
+}
+
+.header p{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+
+}
+
+.product-list1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 8px;
+  }
+  .product-list1 img{
+    max-width: 25em;
+    height: 18em;
+    margin: 0px 0px 0px 8px;
+  }
+  .card-header{
+
+  }
